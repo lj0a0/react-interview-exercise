@@ -1,0 +1,41 @@
+{
+  "name": "react-components-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.dev.js --port 3000 --mode development",
+    "serve-ui-docs": "npx styleguidist server",
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "jest": "^24.9.0",
+    "prettier": "1.19.1",
+    "react-styleguidist": "^10.3.2",
+    "react-test-renderer": "^16.12.0",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!<rootDir>/node_modules/"
+    ]
+  }
+}

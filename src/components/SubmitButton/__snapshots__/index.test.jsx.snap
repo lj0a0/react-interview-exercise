@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubmitButton snapshot 1`] = `
+<button
+  className="btn btn-lg btn-primary btn-block"
+  type="submit"
+>
+  Submit Button
+</button>
+`;
