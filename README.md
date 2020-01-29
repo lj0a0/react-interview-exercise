@@ -90,4 +90,6 @@ Use your own structure. You are allowed to change for what you think is best
 
 ## Note
 
-You are allowed to use external tools, however we do recommend you to not use them in excess because this way it will be harder evaluate your knowledges.
+You are allowed to use external tools, however we do recommend you to not use them in excess because this way it will be harder to evaluate your knowledges.
+
+You can also use the IDE of your choice and change what you think is needed to offer the best solution for the final Application to be built. An example is, if you see notice some layout html should be changed you are allowed to, we only expect you to explain the reason further.
