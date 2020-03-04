@@ -1,95 +1,89 @@
-# React Course Exercise
+# React Web Github - Exercise
 
-## Pre-requisites
+React web page using Github API services to display repositories
+
+## 📋 Getting Started
+
+Make sure to have the following libraries installed. If not install them from the following links:
+**NODE:**
+```
+https://nodejs.org/en/
+````
+**YARN:**
+```
+https://classic.yarnpkg.com/lang/en/
+````
+
+
+### 📋 Prerequisites
 
 - node v12.13.1+;
 - yarn v1.19.1+;
 
-## Node Version
+### 📋 Installing Libraries
 
-[nvm](https://github.com/nvm-sh/nvm) is recommended to manage nodejs version. A .nvmrc file exists in root repository with current nodejs version used.
+Commands to run to execute the app.
 
-If you use unix, you can configure your operating system to update the nodejs version automatically for currentl folder with version configured at .nvmrc.
-
-Check a possible solution [here](https://github.com/nvm-sh/nvm#automatically-call-nvm-use)
-
-## IDE
-
-We recommend you to install [VSCode](https://code.visualstudio.com/) and [React Food Truck extension](https://marketplace.visualstudio.com/items?itemName=burkeholland.react-food-truck).
-
-You can open this project by double clicking react-course.code-workspace. With that and, assuming you have installed React Food Truck extension, you will have your environment formatting the code when you save any file.
-
-## Commands
-
-Install dependencies:
+Install libraries
 
 ```
-yarn install
+npm install
 ```
 
-Start web application server:
+## 📋 Execute the App
 
+Execute web app (using yarn):
 ```
 yarn start
 ```
 
-Web application will be available at http//localhost:3000
-
-Document and develop presentation components:
-
+Execute web app (using npm):
 ```
-yarn serve-ui-docs
+npm start
 ```
 
-For each presentation component at components folder you will need to configure a README.md file. Check react-styleguidist documentation [here](https://react-styleguidist.js.org/docs/documenting.html)
 
-Unit testing with Jest:
+## 📋 Troubleshooting/Issues
 
+**Sign in with Github:** While trying to loading using "Sign in with Github", if the redirect not occurred in the first click, try a second one. Due to the **callback returned from the Github API**, the loading sometimes is not being caught, and not showing any output. Trying a second click almost always solves and Sign in using Github successfully. It's a situation that needs to be handled with more time to analyze the reason why it's happening.
+
+**Use of External Web Service:** in orther to surpass a problem related to CORS policy the app is connected to an **heroku web service** that make a **bridge** between this react web app and the github OAuth services, in order to allow the user to Sign in using Github account
+
+**CSS External Files:** applying an external "".css", was not recognized by the application. Returning an error related to the webpack. An issue that did not have time to analyze more careflly the reasons.
+* Module parse failed: Unexpected token (1:0)
+You may need an appropriate loader to handle this file type, currently, no loaders are configured to process this file.
+
+## 📋 Running the tests
+
+To execute all tests at once run the following command:
+
+Using yarn:
 ```
- yarn test
+yarn jest 
 ```
 
-## Folders structure
+Using npm:
+```
+npx jest 
+```
 
-- src/components (presentational and reusable components)
-- src/pages (container components for each page)
-- src/index.js (entry point)
-- templates (html and css templates for exercise)
+To execute a specific test file:
 
-Use your own structure. You are allowed to change for what you think is best
+Using yarn:
+```
+yarn jest <FILENAME>
+```
 
-## Exercise
+Using npm:
+```
+npx jest <FILENAME>
+```
 
-1. Analyze templates folder: Sign in page (signin.html) and GitHub Repos List page (home.html), modal template (modal.html), confirm-modal.html which could be used to confirm and view-modal.html which could be used to show item details;
-2. Analyze bootstrap design system [here](https://getbootstrap.com/docs/4.4/components/), and use css classes to style your components. Application already has bootstrap css loaded;
-3. Create a Sign In page. No need for form validation (but it is a plus), nor backend communication. To simulate the sign in you can use local storage for now. Show a loading when user submits sign in form (use timeout of 2000 ms) and store session at local storage (only for exercise purpose);
-4. Create a page to search for Github Repos page. Use GitHub Api for Repository search (see below);
-5. Using the session stored at local storage, make sure when you enter application it checks a user is logged in and if so go to Repositories Page, if not go to Sign In page;
-6. After login user should be redirected to Repositories Page;
 
-**We recommend you to use React Styleguidist to document your smaller components (components folder). Project is already setted up for that (see above).**
+## Authors
+Forked from:
+**João Antunes** - [joaoantunes87](https://github.com/joaoantunes87/)
 
-## Used Bootstrap components
+By: 
+**Lino Leitão** - [LinoJoao](https://github.com/lj0a0)
 
-- [Forms](https://getbootstrap.com/docs/4.4/components/forms/);
-- [Navbar](https://getbootstrap.com/docs/4.4/components/navbar/);
-- [Card](https://getbootstrap.com/docs/4.4/components/card/);
-- [Alert](https://getbootstrap.com/docs/4.4/components/alerts/);
-- [Modal](https://getbootstrap.com/docs/4.4/components/modal/);
-- [Pagination](https://getbootstrap.com/docs/4.4/components/pagination/);
-- [Button](https://getbootstrap.com/docs/4.4/components/buttons/);
-- [Spinners](https://getbootstrap.com/docs/4.4/components/spinners/);
-- [Grid Layout](https://getbootstrap.com/docs/4.0/layout/grid/);
-- [Flex Layout](https://getbootstrap.com/docs/4.0/utilities/flex/);
-
-## GitHub Api
-
-- Search Repositories API documentation [here](https://developer.github.com/v3/search/#search-repositories);
-- Example of Repositories Search Endpoint: https://api.github.com/search/repositories?q=tetris&page=1&per_page=2;
-- Pagination API documentation [here](https://developer.github.com/v3/guides/traversing-with-pagination);
-
-## Note
-
-You are allowed to use external tools, however we do recommend you to not use them in excess because this way it will be harder to evaluate your knowledges.
-
-You can also use the IDE of your choice and change what you think is needed to offer the best solution for the final Application to be built. An example is, if you see notice some layout html should be changed you are allowed to, we only expect you to explain the reason further.

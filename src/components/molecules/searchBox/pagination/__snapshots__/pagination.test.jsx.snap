@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination snapshot Middle 1`] = `
+<div
+  className="col-md-6"
+>
+  <ul
+    className="pagination"
+  >
+    <li
+      className="page-item"
+      style={
+        Object {
+          "marginRight": 10,
+        }
+      }
+    >
+      <button
+        className="page-link"
+        onClick={[Function]}
+      >
+        First
+      </button>
+    </li>
+    <li
+      className="page-item"
+    >
+      <button
+        className="page-link"
+      >
+        Prev
+      </button>
+    </li>
+    <li
+      className="page-item"
+    >
+      <button
+        className="page-link"
+        onClick={[Function]}
+      >
+        4
+      </button>
+    </li>
+    <li
+      className="page-item"
+    >
+      <button
+        className="page-link"
+        onClick={[Function]}
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+        5
+      </button>
+    </li>
+    <li
+      className="page-item"
+    >
+      <button
+        className="page-link"
+        onClick={[Function]}
+      >
+        6
+      </button>
+    </li>
+    <li
+      className="page-item"
+    >
+      <button
+        className="page-link"
+        onClick={[Function]}
+      >
+        Next
+      </button>
+    </li>
+    <li
+      className="page-item"
+      style={
+        Object {
+          "marginLeft": 10,
+        }
+      }
+    >
+      <button
+        className="page-link"
+        onClick={[Function]}
+      >
+        Last
+      </button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Pagination snapshot Null 1`] = `null`;
+
+exports[`Pagination snapshot first page 1`] = `
+<div
+  className="col-md-6"
+>
+  <ul
+    className="pagination"
+  >
+    <li
+      className="page-item"
+    >
+      <button
+        className="page-link"
+        onClick={[Function]}
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+        1
+      </button>
+    </li>
+    <li
+      className="page-item"
+    >
+      <button
+        className="page-link"
+        onClick={[Function]}
+      >
+        2
+      </button>
+    </li>
+    <li
+      className="page-item"
+    >
+      <button
+        className="page-link"
+        onClick={[Function]}
+      >
+        3
+      </button>
+    </li>
+    <li
+      className="page-item"
+    >
+      <button
+        className="page-link"
+        onClick={[Function]}
+      >
+        Next
+      </button>
+    </li>
+    <li
+      className="page-item"
+      style={
+        Object {
+          "marginLeft": 10,
+        }
+      }
+    >
+      <button
+        className="page-link"
+        onClick={[Function]}
+      >
+        Last
+      </button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Pagination snapshot last page 1`] = `
+<div
+  className="col-md-6"
+>
+  <ul
+    className="pagination"
+  >
+    <li
+      className="page-item"
+      style={
+        Object {
+          "marginRight": 10,
+        }
+      }
+    >
+      <button
+        className="page-link"
+        onClick={[Function]}
+      >
+        First
+      </button>
+    </li>
+    <li
+      className="page-item"
+    >
+      <button
+        className="page-link"
+        onClick={[Function]}
+      >
+        Prev
+      </button>
+    </li>
+    <li
+      className="page-item"
+    >
+      <button
+        className="page-link"
+        onClick={[Function]}
+      >
+        33
+      </button>
+    </li>
+    <li
+      className="page-item"
+    >
+      <button
+        className="page-link"
+        onClick={[Function]}
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+        34
+      </button>
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlertMessage snapshot 0 1`] = `null`;
+
+exports[`AlertMessage snapshot 1 1`] = `
+<div
+  className="alert alert-success"
+  id="alert_success"
+  role="alert"
+>
+  
+</div>
+`;
+
+exports[`AlertMessage snapshot 2 1`] = `
+<div
+  className="alert alert-danger"
+  id="alert_danger"
+  role="alert"
+>
+  
+</div>
+`;
+
+exports[`AlertMessage snapshot 3 1`] = `
+<div
+  className="alert alert-warning"
+  id="alert_warning"
+  role="alert"
+>
+  
+</div>
+`;
+
+exports[`AlertMessage snapshot 4 1`] = `
+<div
+  className="alert alert-info"
+  id="alert_info"
+  role="alert"
+>
+  
+</div>
+`;

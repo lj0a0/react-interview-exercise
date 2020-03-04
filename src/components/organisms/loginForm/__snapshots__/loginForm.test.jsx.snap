@@ -1,0 +1,383 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm snapshot 1 1`] = `
+<div>
+  <main
+    className="signin-container text-center"
+  >
+    <form
+      className="form-signin"
+      onSubmit={[Function]}
+    >
+      <div
+        className="mb-4"
+      >
+        <img
+          alt="brand-icon"
+          border="1px solid red"
+          height="72"
+          src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4"
+          width="72"
+        />
+      </div>
+      <div
+        className="mb-4"
+      >
+        <h1
+          className="h3 font-weight-normal"
+        >
+          Please sign in
+        </h1>
+      </div>
+      <label
+        className="sr-only"
+        htmlFor="inputEmail"
+      >
+        Email address
+      </label>
+      <input
+        autoFocus={true}
+        className="form-control"
+        id="inputEmail"
+        onChange={[Function]}
+        placeholder="Email address"
+        required={true}
+        type="email"
+        value=""
+      />
+      <label
+        className="sr-only"
+        htmlFor="inputPassword"
+      >
+        Password
+      </label>
+      <input
+        className="form-control"
+        id="inputPassword"
+        onChange={[Function]}
+        placeholder="Password"
+        required={true}
+        type="password"
+        value=""
+      />
+      <div
+        className="mb-3"
+      >
+        <label>
+           
+          <input
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+            value={false}
+          />
+           
+          Remember me
+           
+        </label>
+      </div>
+      <button
+        className="btn btn-lg btn-primary btn-block"
+        type="submit"
+      >
+        Sign in
+      </button>
+      <button
+        className="btn btn-lg btn-primary btn-block"
+        onClick={[Function]}
+      >
+        Sign in with Github
+      </button>
+    </form>
+  </main>
+</div>
+`;
+
+exports[`LoginForm snapshot 2 1`] = `
+<div>
+  <main
+    className="signin-container text-center"
+  >
+    <form
+      className="form-signin"
+      onSubmit={[Function]}
+    >
+      <div
+        className="alert alert-success"
+        id="alert_success"
+        role="alert"
+      />
+      <div
+        className="mb-4"
+      >
+        <img
+          alt="brand-icon"
+          border="1px solid red"
+          height="72"
+          src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4"
+          width="72"
+        />
+      </div>
+      <div
+        className="mb-4"
+      >
+        <h1
+          className="h3 font-weight-normal"
+        >
+          Please sign in
+        </h1>
+      </div>
+      <label
+        className="sr-only"
+        htmlFor="inputEmail"
+      >
+        Email address
+      </label>
+      <input
+        autoFocus={true}
+        className="form-control"
+        id="inputEmail"
+        onChange={[Function]}
+        placeholder="Email address"
+        required={true}
+        type="email"
+        value=""
+      />
+      <label
+        className="sr-only"
+        htmlFor="inputPassword"
+      >
+        Password
+      </label>
+      <input
+        className="form-control"
+        id="inputPassword"
+        onChange={[Function]}
+        placeholder="Password"
+        required={true}
+        type="password"
+        value=""
+      />
+      <div
+        className="mb-3"
+      >
+        <label>
+           
+          <input
+            checked={false}
+            onChange={[Function]}
+            type="checkbox"
+            value={false}
+          />
+           
+          Remember me
+           
+        </label>
+      </div>
+      <button
+        className="btn btn-lg btn-primary btn-block"
+        type="submit"
+      >
+        Sign in
+      </button>
+      <button
+        className="btn btn-lg btn-primary btn-block"
+        onClick={[Function]}
+      >
+        Sign in with Github
+      </button>
+    </form>
+  </main>
+</div>
+`;
+
+exports[`LoginForm snapshot 6 1`] = `
+<div>
+  <main
+    className="signin-container text-center"
+  >
+    <form
+      className="form-signin"
+      onSubmit={[Function]}
+    >
+      <div
+        className="mb-4"
+      >
+        <img
+          alt="brand-icon"
+          border="1px solid red"
+          height="72"
+          src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4"
+          width="72"
+        />
+      </div>
+      <div
+        className="mb-4"
+      >
+        <h1
+          className="h3 font-weight-normal"
+        >
+          Please sign in
+        </h1>
+      </div>
+      <label
+        className="sr-only"
+        htmlFor="inputEmail"
+      >
+        Email address
+      </label>
+      <input
+        autoFocus={true}
+        className="form-control"
+        id="inputEmail"
+        onChange={[Function]}
+        placeholder="Email address"
+        required={true}
+        type="email"
+        value=""
+      />
+      <label
+        className="sr-only"
+        htmlFor="inputPassword"
+      >
+        Password
+      </label>
+      <input
+        className="form-control"
+        id="inputPassword"
+        onChange={[Function]}
+        placeholder="Password"
+        required={true}
+        type="password"
+        value=""
+      />
+      <div
+        className="mb-3"
+      >
+        <label>
+           
+          <input
+            checked={true}
+            onChange={[Function]}
+            type="checkbox"
+            value={true}
+          />
+           
+          Remember me
+           
+        </label>
+      </div>
+      <button
+        className="btn btn-lg btn-primary btn-block"
+        type="submit"
+      >
+        Sign in
+      </button>
+      <button
+        className="btn btn-lg btn-primary btn-block"
+        onClick={[Function]}
+      >
+        Sign in with Github
+      </button>
+    </form>
+  </main>
+</div>
+`;
+
+exports[`LoginForm snapshot 7 1`] = `
+<div>
+  <main
+    className="signin-container text-center"
+  >
+    <form
+      className="form-signin"
+      onSubmit={[Function]}
+    >
+      <div
+        className="alert alert-success"
+        id="alert_success"
+        role="alert"
+      />
+      <div
+        className="mb-4"
+      >
+        <img
+          alt="brand-icon"
+          border="1px solid red"
+          height="72"
+          src="https://avatars1.githubusercontent.com/u/9919?s=200&v=4"
+          width="72"
+        />
+      </div>
+      <div
+        className="mb-4"
+      >
+        <h1
+          className="h3 font-weight-normal"
+        >
+          Please sign in
+        </h1>
+      </div>
+      <label
+        className="sr-only"
+        htmlFor="inputEmail"
+      >
+        Email address
+      </label>
+      <input
+        autoFocus={true}
+        className="form-control"
+        id="inputEmail"
+        onChange={[Function]}
+        placeholder="Email address"
+        required={true}
+        type="email"
+        value=""
+      />
+      <label
+        className="sr-only"
+        htmlFor="inputPassword"
+      >
+        Password
+      </label>
+      <input
+        className="form-control"
+        id="inputPassword"
+        onChange={[Function]}
+        placeholder="Password"
+        required={true}
+        type="password"
+        value=""
+      />
+      <div
+        className="mb-3"
+      >
+        <label>
+           
+          <input
+            checked={true}
+            onChange={[Function]}
+            type="checkbox"
+            value={true}
+          />
+           
+          Remember me
+           
+        </label>
+      </div>
+      <button
+        className="btn btn-lg btn-primary btn-block"
+        type="submit"
+      >
+        Sign in
+      </button>
+      <button
+        className="btn btn-lg btn-primary btn-block"
+        onClick={[Function]}
+      >
+        Sign in with Github
+      </button>
+    </form>
+  </main>
+</div>
+`;

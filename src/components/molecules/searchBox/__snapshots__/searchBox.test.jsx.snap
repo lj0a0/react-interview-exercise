@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBox snapshot 1`] = `
+<section
+  className="jumbotron text-center"
+>
+  <div
+    className="container"
+  >
+    <h1>
+      Search GitHub Repos
+    </h1>
+    <p
+      className="lead text-muted"
+    >
+      Search for GitHub repos using the following form
+    </p>
+    <form
+      className="form-inline justify-content-center"
+      id="search-form"
+    >
+      <label
+        className="sr-only"
+        htmlFor="inputSearch"
+      >
+        Search by
+      </label>
+      <input
+        autoFocus={true}
+        className="form-control"
+        id="inputSearch"
+        onChange={[Function]}
+        placeholder="Search Repo"
+        required={true}
+        style={
+          Object {
+            "margin": 10,
+          }
+        }
+        type="text"
+        value="react"
+      />
+      <button
+        className="btn btn-primary"
+        onClick={[Function]}
+        style={
+          Object {
+            "margin": 10,
+          }
+        }
+        type="submit"
+      >
+        Search
+      </button>
+      <button
+        className="btn btn-secondary"
+        onClick={[Function]}
+        type="reset"
+      >
+        Clear
+      </button>
+    </form>
+  </div>
+</section>
+`;

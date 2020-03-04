@@ -1,0 +1,299 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card snapshot  1`] = `
+<div
+  className="col-md-4 mb-4"
+>
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+  <div
+    className="card shadow-sm h-100"
+  >
+    <div
+      className="card"
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "height": 225,
+            "width": "100%",
+          }
+        }
+      >
+        <img
+          alt="..."
+          className="card-img-top"
+          src="https://avatars2.githubusercontent.com/u/2100222?v=4"
+          style={
+            Object {
+              "height": "80%",
+              "margin": "10%",
+              "width": "80%",
+            }
+          }
+        />
+      </div>
+      <div
+        className="card-body"
+      >
+        <div
+          style={
+            Object {
+              "height": 150,
+            }
+          }
+        >
+          <h5
+            className="card-title"
+          >
+            reattempt
+             from 
+            wsmd
+          </h5>
+          <p
+            className="card-text"
+          >
+            🤞 Give your functions another chance
+          </p>
+        </div>
+        <div
+          className="container"
+          style={
+            Object {
+              "height": "50%",
+            }
+          }
+        >
+          <div
+            className="row"
+            style={
+              Object {
+                "margin": "auto",
+                "marginBottom": "10px",
+              }
+            }
+          >
+            <div
+              className="col-sm"
+              style={
+                Object {
+                  "margin": "auto",
+                  "marginBottom": "5px",
+                  "marginTop": "5px",
+                }
+              }
+            >
+              <a
+                href="https://github.com/wsmd/reattempt"
+                target="_blank"
+              >
+                <div
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#0367E5",
+                      "border": "2px solid #0367E5",
+                      "borderRadius": 10,
+                      "color": "#FFFFFF",
+                      "display": "flex",
+                      "height": "100%",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  View
+                </div>
+              </a>
+            </div>
+            <div
+              className="col-sm"
+              style={
+                Object {
+                  "margin": "auto",
+                  "marginBottom": "5px",
+                  "marginTop": "5px",
+                }
+              }
+            >
+              <a>
+                <div
+                  style={
+                    Object {
+                      "backgroundColor": "#0367E5",
+                      "border": "2px solid #0367E5",
+                      "borderRadius": 10,
+                      "color": "#FFFFFF",
+                      "opacity": "0.6",
+                    }
+                  }
+                >
+                  <div
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "display": "flex",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <i
+                      className="fa fa-eye"
+                    />
+                     Watch
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "display": "flex",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                     
+                    573
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            className="row"
+            style={
+              Object {
+                "margin": "auto",
+              }
+            }
+          >
+            <div
+              className="col-sm"
+              style={
+                Object {
+                  "margin": "auto",
+                  "marginBottom": "5px",
+                  "marginTop": "5px",
+                }
+              }
+            >
+              <a>
+                <div
+                  style={
+                    Object {
+                      "backgroundColor": "#0367E5",
+                      "border": "2px solid #0367E5",
+                      "borderRadius": 10,
+                      "color": "#FFFFFF",
+                      "opacity": "0.6",
+                    }
+                  }
+                >
+                  <div
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "display": "flex",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <i
+                      className="fa fa-star"
+                      style={
+                        Object {
+                          "marginRight": "1px",
+                        }
+                      }
+                    />
+                     
+                    Star
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "display": "flex",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                     
+                    573
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div
+              className="col-sm"
+              style={
+                Object {
+                  "margin": "auto",
+                  "marginBottom": "5px",
+                  "marginTop": "5px",
+                }
+              }
+            >
+              <a>
+                <div
+                  style={
+                    Object {
+                      "backgroundColor": "#0367E5",
+                      "border": "2px solid #0367E5",
+                      "borderRadius": 10,
+                      "color": "#FFFFFF",
+                      "opacity": "0.6",
+                    }
+                  }
+                >
+                  <div
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "display": "flex",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <i
+                      className="fas fa-code-branch"
+                      style={
+                        Object {
+                          "marginRight": "1px",
+                        }
+                      }
+                    />
+                     
+                    Forks
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "display": "flex",
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                     
+                    11
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

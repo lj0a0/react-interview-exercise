@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RangeSelector correctly 1`] = `
+<select
+  className="custom-select"
+  onChange={[Function]}
+>
+  <option
+    value="6"
+  >
+    6
+  </option>
+  <option
+    value="12"
+  >
+    12
+  </option>
+  <option
+    value="18"
+  >
+    18
+  </option>
+  <option
+    value="24"
+  >
+    24
+  </option>
+  <option
+    value="30"
+  >
+    30
+  </option>
+</select>
+`;

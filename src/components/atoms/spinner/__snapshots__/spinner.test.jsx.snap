@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner snapshot hidded 1`] = `
+<div
+  className="loading-container"
+  id="loading"
+  style={
+    Object {
+      "display": "none",
+    }
+  }
+>
+  <div
+    className="d-flex justify-content-center align-items-center loader"
+  >
+    <div
+      className="spinner-border text-primary"
+      role="status"
+    >
+      <span
+        className="sr-only"
+      >
+        Loading...
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Spinner snapshot visible 1`] = `
+<div
+  className="loading-container"
+  id="loading"
+  style={null}
+>
+  <div
+    className="d-flex justify-content-center align-items-center loader"
+  >
+    <div
+      className="spinner-border text-primary"
+      role="status"
+    >
+      <span
+        className="sr-only"
+      >
+        Loading...
+      </span>
+    </div>
+  </div>
+</div>
+`;
